@@ -44,12 +44,12 @@
 
 执行样例：
     
-    python 湘潭大学.py 1 ./xtuclawer.excel
+    python 湖南大学.py 1 ./xtuclawer.excel
 <br>
 
 
 #
-参数说明
+湖南大学校招数据参数说明
 
  <table cellspacing="0" border="0">
 	<colgroup width="170"></colgroup>
@@ -212,5 +212,18 @@
 	</tr>
 </table>
 
+#
+    大家比较一般比较关心的校招时间
+先看这几年的校招场次
+<img src="https://raw.githubusercontent.com/timegambler/clawerschool/master/img/2016%E5%B9%B4-2019%E5%B9%B4%E6%A0%A1%E6%8B%9B%E5%9C%BA%E6%AC%A1%E7%BB%9F%E8%AE%A1%E5%9B%BE.png">
 
+
+#
+    首先看这几年来校招各个行业的比例
+    
+<img src="https://raw.githubusercontent.com/timegambler/clawerschool/master/img/2015%E5%B9%B4-2019%E5%B9%B4%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A6%E4%BC%81%E4%B8%9A%E8%A1%8C%E4%B8%9A%E6%A0%A1%E6%8B%9B%E6%AF%94%E4%BE%8B.png">
+
+结论：不难发现国有企业依旧是占绝大多数比例的，其次是普通民营企业
+
+    然后是每个年份的各个行业比例
 
