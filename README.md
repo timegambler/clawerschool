@@ -51,7 +51,8 @@
 #
 湖南大学校招数据参数说明
 
- <table cellspacing="0" border="0">
+
+<table cellspacing="0" border="0">
 	<colgroup width="170"></colgroup>
 	<colgroup width="193"></colgroup>
 	<colgroup width="185"></colgroup>
@@ -213,17 +214,28 @@
 </table>
 
 #
-    大家比较一般比较关心的校招时间
-先看这几年的校招场次
+<h4> 这几年的校招场次统计:</h4>
 <img src="https://raw.githubusercontent.com/timegambler/clawerschool/master/img/2016%E5%B9%B4-2019%E5%B9%B4%E6%A0%A1%E6%8B%9B%E5%9C%BA%E6%AC%A1%E7%BB%9F%E8%AE%A1%E5%9B%BE.png">
-
+<br>
+<br>
+<p>结论：根据统计图可以发现2018年校招最多，此时也是经济发展最高的时候，到了2019年校招变少，说明2019年经济存在一定的下行</p>
+<br>
+<h4>校招按月份进行统计:</h4>
+<img src="https://github.com/timegambler/clawerschool/blob/master/img/%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A62015%E5%B9%B412%E6%9C%88-2019%E5%B9%B412%E6%9C%88%E6%A0%A1%E6%8B%9B%E7%BB%9F%E8%AE%A1%E5%9B%BE.png?raw=true">
+<br>
+<br>
+<p>结论：根据统计可以发现一些客观规律，如每年的秋招比春招的招聘场次要多两倍，并且秋招集中在9,10,11,12月，<br>
+其中10月份是校招最热的时候，到了12月份基本上秋招结束,而春招集中在3,4,5,6月，规模上也远远不如秋招。</p>
 
 #
-    首先看这几年来校招各个行业的比例
-    
-<img src="https://raw.githubusercontent.com/timegambler/clawerschool/master/img/2015%E5%B9%B4-2019%E5%B9%B4%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A6%E4%BC%81%E4%B8%9A%E8%A1%8C%E4%B8%9A%E6%A0%A1%E6%8B%9B%E6%AF%94%E4%BE%8B.png">
-
-结论：不难发现国有企业依旧是占绝大多数比例的，其次是普通民营企业
-
-    然后是每个年份的各个行业比例
-
+<h4>这几年招聘企业性质比例</h4>
+<img src="https://github.com/timegambler/clawerschool/blob/master/img/2015%E5%B9%B4-2019%E5%B9%B4%E6%B9%96%E5%8D%97%E5%A4%A7%E5%AD%A6%E4%BC%81%E4%B8%9A%E8%A1%8C%E4%B8%9A%E6%A0%A1%E6%8B%9B%E6%AF%94%E4%BE%8B.png?raw=true">
+<br>
+<br>
+<p>结论：不难发现国有企业依旧是占绝大多数比例的，其次是普通民营企业，说明国有企业还是占据主导地位的</p>
+<br>
+<h4>各个年份招聘企业性质比例</h4>
+<img src="https://github.com/timegambler/clawerschool/blob/master/img/2016-2019%E5%B9%B4%E5%90%84%E5%B9%B4%E4%BB%BD%E6%A0%A1%E6%8B%9B%E8%A1%8C%E4%B8%9A%E6%AF%94%E4%BE%8B%E7%BB%9F%E8%AE%A1%E5%9B%BE.png?raw=true">
+<br>
+<br>
+<p>结论：根据比例变化，民营企业在2018年达到巅峰，占据比例高达27.7%，而到了2019年比例又降回到与2017年，再次论证了经济存在一定的下行</p>
