@@ -12,7 +12,7 @@ from lxml import etree
 import urllib3
 
 # 初始化日志保存路劲，及格式
-logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 # logging.getLogger('requests').setLevel(logging.WARNING)  # 禁用requests的日志
 
 # 初始化爬取网页链接地址
@@ -94,6 +94,7 @@ def get_data(basicurl):
     url_list = get_url_data_list(basicurl, post_data_list)
     for url in url_list:
         data_line = {}
+        print(url)
         html = get_career_data(url)
         selector = etree.HTML(html)
         # 公司名称
@@ -113,6 +114,7 @@ def get_data(basicurl):
                      'enterprice_size': enterprice_size, 'preach_time': preach_time, 'meet_place': meet_place,
                      'url': url}
         data_list.append(data_line)
+        print(data_line)
     # 职位名称	需求人数	需求专业	薪资	学历
     # information_list = selector.xpath('//*[@id="vTab1"]/table/tbody/tr[1]/td')
     # print(title, enterprice_propertice, enterprice_industry, enterprice_size, preach_time)
@@ -152,7 +154,7 @@ def write_sheet(sheet, data_list):
 
 
 # 创建excel文件
-def create_excel(path='湖南大学招聘信息.xls'):
+def create_excel(path='中南大学招聘信息.xls'):
     work_book = xlwt.Workbook()
     sheet_1 = create_sheet(work_book)
     write_sheet(sheet_1, get_data(b_url))
@@ -171,7 +173,8 @@ def list_to_csvstr(values):
     return str_+'\n'
 
 
-def create_csv(path='湖南大学招聘信息.csv'):
+def create_csv(path='中南大学招聘信息.csv'):
+    print('mark3')
     data_list = get_data(b_url)
     columns_list = list(data_list[0].keys())
     columns = list_to_csvstr(columns_list)
@@ -180,14 +183,17 @@ def create_csv(path='湖南大学招聘信息.csv'):
     fin.close()
     for data in data_list:
         with open(path, 'a', encoding='utf-8') as fin_2:
-            fin_2.writelines(json_to_value_list(data))
+            print('mark4')
+            fin_2.writelines(list_to_csvstr(data))
 
 
-create_excel('中南大学招聘信息.xls')
+# create_excel('中南大学招聘信息.xls')
 
 
 def main():
+    print('mark1')
     if len(sys.argv) < 2:
+        print('mark2')
         create_csv()
     elif len(sys.argv) == 2:
         if sys.argv[1] == 1:
